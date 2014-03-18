@@ -7,7 +7,7 @@ dep "Google Chrome.app" do
 end
 
 dep "LaunchBar.app" do
-  source "http://www.obdev.at/downloads/launchbar/LaunchBar-5.4.1.dmg"
+  source "http://www.obdev.at/downloads/launchbar/LaunchBar-5.6.2.dmg"
 end
 
 dep "all-osx-apps" do
