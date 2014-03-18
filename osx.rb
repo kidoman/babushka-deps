@@ -17,7 +17,7 @@ end
 dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
-  requires "iTerm.zip"
+  requires "iTerm.app"
 end
 
 dep "auto-hide-dock" do
