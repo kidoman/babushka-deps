@@ -1,9 +1,19 @@
-dep "Dropbox.app" do
-  source "https://www.dropbox.com/download?plat=mac"
+dep "Sublime Text.app" do
+  source "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203059.dmg"
+end
+
+dep "Google Chrome.app" do
+  source "https://dl-ssl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"
+end
+
+dep "LaunchBar.app" do
+  source "http://www.obdev.at/downloads/launchbar/LaunchBar-5.4.1.dmg"
 end
 
 dep "all-osx-apps" do
-  requires "Dropbox.app"
+  requires "Sublime Text.app"
+  requires "LaunchBar.app"
+  requires "Google Chrome.app"
 end
 
 dep "auto-hide-dock" do
