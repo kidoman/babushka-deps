@@ -10,7 +10,7 @@ dep "LaunchBar.app" do
   source "http://www.obdev.at/downloads/launchbar/LaunchBar-5.6.2.dmg"
 end
 
-dep "iTerm.zip" do
+dep "iTerm.app" do
   source "http://www.iterm2.com/downloads/beta/iTerm2-1_0_0_20140112.zip"
 end
 
