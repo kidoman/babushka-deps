@@ -46,7 +46,6 @@ dep "all-packaged-apps" do
   requires "bazaar.bin"
   requires "mercurial.bin"
 
-  requires "axel.bin"
   requires "ssh-copy-id.bin"
 
   requires "xz.bin"
