@@ -14,10 +14,20 @@ dep "iTerm.app" do
   source "http://www.iterm2.com/downloads/beta/iTerm2-1_0_0_20140112.zip"
 end
 
+dep "MPlayerX.app" do
+  source "https://downloads.sourceforge.net/project/mplayerx-osx/MPlayerX-1.0.22.1.zip"
+end
+
+dep "SourceTree.app" do
+  source "http://downloads.atlassian.com/software/sourcetree/SourceTree_1.8.1.dmg"
+end
+
 dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
   requires "iTerm.app"
+  requires "MPlayerX.app"
+  requires "SourceTree.app"
 end
 
 dep "auto-hide-dock" do
