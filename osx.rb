@@ -12,7 +12,6 @@ end
 
 dep "all-osx-apps" do
   requires "Sublime Text.app"
-  requires "LaunchBar.app"
   requires "Google Chrome.app"
 end
 
