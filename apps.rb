@@ -1,3 +1,5 @@
+dep "zsh.bin"
+
 dep "watch.bin"
 dep "tcping.bin"
 dep "ack.bin"
@@ -29,6 +31,7 @@ dep "ssh-copy-id.bin"
 dep "xz.bin"
 
 dep "all-packaged-apps" do
+  requires "zsh.bin"
   requires "watch.bin"
   requires "tcping.bin"
   requires "ack.bin"
