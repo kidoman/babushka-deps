@@ -22,12 +22,18 @@ dep "SourceTree.app" do
   source "http://downloads.atlassian.com/software/sourcetree/SourceTree_1.8.1.dmg"
 end
 
+dep "IntelliJ IDEA 13.app" do
+  version "13.1"
+  source "http://download-cf.jetbrains.com/idea/ideaIU-13.1.dmg"
+end
+
 dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
   requires "iTerm.app"
   requires "MPlayerX.app"
   requires "SourceTree.app"
+  requires "IntelliJ IDEA 13.app"
 end
 
 dep "auto-hide-dock" do
