@@ -15,6 +15,15 @@ dep "autoconf.bin"
 dep "automake.bin"
 dep "go.bin"
 
+dep "nvm" do
+  met? {
+    File.directory?(File.expand_path("~/.nvm"))
+  }
+  meet {
+    shell("curl https://raw.github.com/creationix/nvm/master/install.sh | sh")
+  }
+end
+
 dep "git.bin"
 
 dep "bazaar.bin" do
@@ -44,6 +53,7 @@ dep "all-packaged-apps" do
   requires "autoconf.bin"
   requires "automake.bin"
   requires "go.bin"
+  requires "nvm"
 
   requires "git.bin"
   requires "bazaar.bin"
