@@ -13,7 +13,14 @@ dep "apple-gcc42.bin" do
 end
 dep "autoconf.bin"
 dep "automake.bin"
-dep "go.bin"
+dep "go" do
+  met? {
+    in_path? "go"
+  }
+  meet {
+    shell("brew install go --cross-compile-common")
+  }
+end
 
 dep "nvm" do
   met? {
@@ -52,7 +59,7 @@ dep "all-packaged-apps" do
   requires "apple-gcc42.bin"
   requires "autoconf.bin"
   requires "automake.bin"
-  requires "go.bin"
+  requires "go"
   requires "nvm"
 
   requires "git.bin"
