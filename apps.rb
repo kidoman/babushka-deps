@@ -31,6 +31,10 @@ dep "nvm" do
   }
 end
 
+dep "maven.bin" do
+  provides "mvn"
+end
+
 dep "git.bin"
 
 dep "bazaar.bin" do
@@ -61,6 +65,8 @@ dep "all-packaged-apps" do
   requires "automake.bin"
   requires "go"
   requires "nvm"
+
+  requires "maven.bin"
 
   requires "git.bin"
   requires "bazaar.bin"
