@@ -23,8 +23,8 @@ dep "SourceTree.app" do
 end
 
 dep "IntelliJ IDEA 13.app" do
-  version "13.1"
-  source "http://download-cf.jetbrains.com/idea/ideaIU-13.1.dmg"
+  version "13.1.1"
+  source "http://download-cf.jetbrains.com/idea/ideaIU-13.1.1.dmg"
 end
 
 dep "all-osx-apps" do
