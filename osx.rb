@@ -6,6 +6,10 @@ dep "Google Chrome.app" do
   source "https://dl-ssl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"
 end
 
+dep "Firefox.app" do
+  source "https://download-installer.cdn.mozilla.net/pub/firefox/releases/28.0/mac/en-US/Firefox%2028.0.dmg"
+end
+
 dep "LaunchBar.app" do
   source "http://www.obdev.at/downloads/launchbar/LaunchBar-5.6.2.dmg"
 end
@@ -30,6 +34,7 @@ end
 dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
+  requires "Firefox.app"
   requires "iTerm.app"
   requires "MPlayerX.app"
   requires "SourceTree.app"
