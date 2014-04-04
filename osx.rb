@@ -22,6 +22,10 @@ dep "MPlayerX.app" do
   source "https://downloads.sourceforge.net/project/mplayerx-osx/MPlayerX-1.0.22.1.zip"
 end
 
+dep "VLC.app" do
+  source "http://mirror.switch.ch/ftp/mirror/videolan/vlc/2.1.4/macosx/vlc-2.1.4.dmg"
+end
+
 dep "SourceTree.app" do
   source "http://downloads.atlassian.com/software/sourcetree/SourceTree_1.8.1.dmg"
 end
@@ -37,6 +41,7 @@ dep "all-osx-apps" do
   requires "Firefox.app"
   requires "iTerm.app"
   requires "MPlayerX.app"
+  requires "VLC.app"
   requires "SourceTree.app"
   requires "IntelliJ IDEA 13.app"
 end
