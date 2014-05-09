@@ -35,6 +35,11 @@ dep "IntelliJ IDEA 13.app" do
   source "http://download-cf.jetbrains.com/idea/ideaIU-13.1.1.dmg"
 end
 
+dep "Disk Inventory X.app" do
+  version "1.0"
+  source "https://dl.dropboxusercontent.com/u/6727135/Tools/DIX1.0Universal.dmg"
+end
+
 dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
@@ -44,6 +49,7 @@ dep "all-osx-apps" do
   requires "VLC.app"
   requires "SourceTree.app"
   requires "IntelliJ IDEA 13.app"
+  requires "Disk Inventory X.app"
 end
 
 dep "auto-hide-dock" do
