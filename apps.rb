@@ -7,6 +7,7 @@ dep "tree.bin"
 
 dep "wget.bin"
 dep "curl.bin"
+dep "unrar.bin"
 
 dep "apple-gcc42.bin" do
   provides "gcc-4.2"
@@ -66,6 +67,7 @@ dep "all-packaged-apps" do
 
   requires "wget.bin"
   requires "curl.bin"
+  requires "unrar.bin"
 
   requires "apple-gcc42.bin"
   requires "autoconf.bin"
