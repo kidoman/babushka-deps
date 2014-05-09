@@ -45,6 +45,11 @@ dep "OmniGraffle.app" do
   source "http://downloads2.omnigroup.com/software/MacOSX/10.8/OmniGraffle-6.0.5.dmg"
 end
 
+dep "ImageOptim.app" do
+  version "1.5.1"
+  source "http://imageoptim.com/ImageOptim.tbz2"
+end
+
 dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
@@ -56,6 +61,7 @@ dep "all-osx-apps" do
   requires "IntelliJ IDEA 13.app"
   requires "Disk Inventory X.app"
   requires "OmniGraffle.app"
+  requires "ImageOptim.app"
 end
 
 dep "auto-hide-dock" do
