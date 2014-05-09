@@ -50,6 +50,13 @@ dep "ssh-copy-id.bin"
 
 dep "xz.bin"
 
+dep "nmap.bin"
+
+dep "redis.bin" do
+  provides "redis-cli"
+end
+dep "mysql.bin"
+
 dep "all-packaged-apps" do
   requires "zsh.bin"
   requires "watch.bin"
@@ -75,4 +82,9 @@ dep "all-packaged-apps" do
   requires "ssh-copy-id.bin"
 
   requires "xz.bin"
+
+  requires "nmap.bin"
+
+  requires "redis.bin"
+  requires "mysql.bin"
 end
