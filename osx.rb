@@ -40,6 +40,11 @@ dep "Disk Inventory X.app" do
   source "https://dl.dropboxusercontent.com/u/6727135/Tools/DIX1.0Universal.dmg"
 end
 
+dep "OmniGraffle.app" do
+  version "6.0.5"
+  source "http://downloads2.omnigroup.com/software/MacOSX/10.8/OmniGraffle-6.0.5.dmg"
+end
+
 dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
@@ -50,6 +55,7 @@ dep "all-osx-apps" do
   requires "SourceTree.app"
   requires "IntelliJ IDEA 13.app"
   requires "Disk Inventory X.app"
+  requires "OmniGraffle.app"
 end
 
 dep "auto-hide-dock" do
