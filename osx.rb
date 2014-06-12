@@ -59,7 +59,7 @@ dep "all-osx-apps" do
   requires "MPlayerX.app"
   requires "VLC.app"
   requires "SourceTree.app"
-  requires "IntelliJ IDEA 13.app"
+  # requires "IntelliJ IDEA 13.app"
   requires "Disk Inventory X.app"
   requires "OmniGraffle.app"
   requires "ImageOptim.app"
