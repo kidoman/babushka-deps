@@ -11,7 +11,7 @@ dep "Firefox.app" do
 end
 
 dep "LaunchBar.app" do
-  source "http://www.obdev.at/downloads/launchbar/LaunchBar-5.6.2.dmg"
+  source "http://www.obdev.at/downloads/launchbar/LaunchBar-6.0.dmg"
 end
 
 dep "iTerm.app" do
