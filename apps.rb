@@ -73,7 +73,7 @@ dep "all-packaged-apps" do
   requires "autoconf.bin"
   requires "automake.bin"
   requires "go"
-  requires "nvm"
+  # requires "nvm"
 
   requires "maven.bin"
 
