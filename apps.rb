@@ -69,7 +69,7 @@ dep "all-packaged-apps" do
   requires "curl.bin"
   requires "unrar.bin"
 
-  requires "apple-gcc42.bin"
+  # requires "apple-gcc42.bin"
   requires "autoconf.bin"
   requires "automake.bin"
   requires "go"
