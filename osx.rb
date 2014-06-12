@@ -7,7 +7,7 @@ dep "Google Chrome.app" do
 end
 
 dep "Firefox.app" do
-  source "https://download-installer.cdn.mozilla.net/pub/firefox/releases/28.0/mac/en-US/Firefox%2028.0.dmg"
+  source "https://download-installer.cdn.mozilla.net/pub/firefox/releases/30.0/mac/en-US/Firefox%2030.0.dmg"
 end
 
 dep "LaunchBar.app" do
