@@ -61,7 +61,7 @@ dep "all-osx-apps" do
   requires "SourceTree.app"
   # requires "IntelliJ IDEA 13.app"
   requires "Disk Inventory X.app"
-  requires "OmniGraffle.app"
+  # requires "OmniGraffle.app"
   requires "ImageOptim.app"
 end
 
