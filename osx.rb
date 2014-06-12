@@ -15,7 +15,7 @@ dep "LaunchBar.app" do
 end
 
 dep "iTerm.app" do
-  source "http://www.iterm2.com/downloads/beta/iTerm2-1_0_0_20140112.zip"
+  source "http://www.iterm2.com/downloads/beta/iTerm2-1_0_0_20140518.zip"
 end
 
 dep "MPlayerX.app" do
