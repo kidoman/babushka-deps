@@ -27,7 +27,7 @@ dep "VLC.app" do
 end
 
 dep "SourceTree.app" do
-  source "http://downloads.atlassian.com/software/sourcetree/SourceTree_1.9.1.dmg"
+  source "http://downloads.atlassian.com/software/sourcetree/SourceTree_1.9.4.dmg"
 end
 
 dep "IntelliJ IDEA 13.app" do
