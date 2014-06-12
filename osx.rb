@@ -54,6 +54,7 @@ dep "all-osx-apps" do
   requires "Sublime Text.app"
   requires "Google Chrome.app"
   requires "Firefox.app"
+  # requires "LaunchBar.app"
   requires "iTerm.app"
   requires "MPlayerX.app"
   requires "VLC.app"
