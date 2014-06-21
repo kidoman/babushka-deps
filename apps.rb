@@ -14,6 +14,7 @@ dep "apple-gcc42.bin" do
 end
 dep "autoconf.bin"
 dep "automake.bin"
+
 dep "go" do
   met? {
     in_path? "go"
